@@ -2,5 +2,5 @@ imbalanced_learn
 pandas
 scikit_learn
 scikit_learn
-st_gsheets_connection
+st_gsheets_connection==0.0.3
 streamlit

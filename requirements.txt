@@ -1,6 +1,6 @@
 imbalanced_learn
-pandas==1.5.3
-scikit_learn==1.3.0
-scikit_learn==1.4.0
-st_gsheets_connection==0.0.3
-streamlit==1.30.0
+pandas
+scikit_learn
+scikit_learn
+st_gsheets_connection
+streamlit

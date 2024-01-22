@@ -244,11 +244,9 @@ with st.form(key="student_form"):
 
         # Now, both DataFrames should have the same columns and 'Major' included
         common_columns = set(student_data_encoded.columns) & set(existing_data.columns)
-        st.write("Common Columns After Reordering:", common_columns)
 
         # Extract the features used during training
         training_features = existing_data.columns[:-1].to_list()  # Assuming the last column is the target variable ('Class')
-        st.write("Training Features After Reordering:", training_features)
 
         # Ensure that 'Major' is included in the training features
         if 'Major' not in training_features:
